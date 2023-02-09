@@ -283,6 +283,26 @@ body {
   align-items: center;
   background-color: var(--secondary-color);
 }
+.customers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.customers-item {
+  list-style: none;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.customers-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .box {
   background: #2e2f42;
   padding-top: 100px;
