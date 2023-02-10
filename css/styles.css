@@ -3,6 +3,7 @@
   --secondary-color: #4d5ae5;
   --font-description-color: #434455;
   --font-white-color: #ffffff;
+  --hover-color: #404bbf;
 }
 p,
 h1,
@@ -85,7 +86,7 @@ body {
 }
 .item:hover,
 .item:focus {
-  color: var(--secondary-color);
+  color: var(--hover-color);
 }
 .header-address {
   font-weight: 400;
@@ -102,7 +103,7 @@ body {
 }
 .header-contact:focus,
 .header-contact:hover {
-  color: var(--secondary-color);
+  color: var(--hover-color);
 }
 .section {
   padding-bottom: 120px;
@@ -152,8 +153,7 @@ body {
 }
 .headline-button:hover,
 .headline-button:focus {
-  background-color: var(--font-white-color);
-  color: var(--secondary-color);
+  background-color: var(--hover-color);
   cursor: pointer;
 }
 
@@ -287,6 +287,10 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--secondary-color);
+}
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: var(--hover-color);
 }
 .customers-list {
   display: flex;
