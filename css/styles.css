@@ -4,6 +4,7 @@
   --font-description-color: #434455;
   --font-white-color: #ffffff;
   --hover-color: #404bbf;
+  --footer-soc-item-color: #31d0aa;
 }
 p,
 h1,
@@ -451,6 +452,10 @@ body {
   height: 100%;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--footer-soc-item-color);
 }
 .footer-social-icon {
   fill: currentColor;
